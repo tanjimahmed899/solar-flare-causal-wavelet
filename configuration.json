@@ -1,0 +1,18 @@
+{
+  "wavelet": "db2",
+  "level": 3,
+  "extension_mode": "symmetric",
+  "window_minutes": 30,
+  "decision_minutes": 2,
+  "horizon_minutes": 360,
+  "warmup_minutes": 120,
+  "prediction_quantile": 0.8,
+  "detection_quantile": 0.95,
+  "quantile_method": "linear",
+  "persistence_minutes": 4,
+  "merge_gap_minutes": 12,
+  "interpolate_max_missing_minutes": 2,
+  "prediction_min_lead_minutes": 10,
+  "prediction_max_lead_minutes": 90,
+  "detection_tolerance_minutes": 10
+}

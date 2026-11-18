@@ -1,0 +1,165 @@
+{
+  "status": "passed",
+  "monthly_metric_and_matching_checks": [
+    {
+      "month": "2022-04",
+      "stream": "prediction",
+      "alerts": 247,
+      "matches": 86,
+      "independent_matching_passed": true,
+      "count_and_metric_identities_passed": true,
+      "display_priority_independence_passed": true
+    },
+    {
+      "month": "2022-04",
+      "stream": "detection",
+      "alerts": 116,
+      "matches": 69,
+      "independent_matching_passed": true,
+      "count_and_metric_identities_passed": true,
+      "display_priority_independence_passed": true
+    },
+    {
+      "month": "2022-05",
+      "stream": "prediction",
+      "alerts": 269,
+      "matches": 101,
+      "independent_matching_passed": true,
+      "count_and_metric_identities_passed": true,
+      "display_priority_independence_passed": true
+    },
+    {
+      "month": "2022-05",
+      "stream": "detection",
+      "alerts": 119,
+      "matches": 93,
+      "independent_matching_passed": true,
+      "count_and_metric_identities_passed": true,
+      "display_priority_independence_passed": true
+    },
+    {
+      "month": "2022-06",
+      "stream": "prediction",
+      "alerts": 255,
+      "matches": 46,
+      "independent_matching_passed": true,
+      "count_and_metric_identities_passed": true,
+      "display_priority_independence_passed": true
+    },
+    {
+      "month": "2022-06",
+      "stream": "detection",
+      "alerts": 116,
+      "matches": 43,
+      "independent_matching_passed": true,
+      "count_and_metric_identities_passed": true,
+      "display_priority_independence_passed": true
+    },
+    {
+      "month": "2022-07",
+      "stream": "prediction",
+      "alerts": 278,
+      "matches": 72,
+      "independent_matching_passed": true,
+      "count_and_metric_identities_passed": true,
+      "display_priority_independence_passed": true
+    },
+    {
+      "month": "2022-07",
+      "stream": "detection",
+      "alerts": 119,
+      "matches": 67,
+      "independent_matching_passed": true,
+      "count_and_metric_identities_passed": true,
+      "display_priority_independence_passed": true
+    }
+  ],
+  "independent_wavelet_and_threshold_windows_checked": 48,
+  "prefix_and_future_perturbation_causality_checks": [
+    {
+      "month": "2022-04",
+      "cutoff_utc": "2022-04-01T12:00:00+00:00",
+      "features_thresholds_alert_starts_and_priorities_unchanged": true
+    },
+    {
+      "month": "2022-04",
+      "cutoff_utc": "2022-04-01T04:37:00+00:00",
+      "features_thresholds_alert_starts_and_priorities_unchanged": true
+    },
+    {
+      "month": "2022-04",
+      "future_flux_perturbation_factor": 1000,
+      "cutoff_minute": 720,
+      "earlier_decisions_unchanged": true
+    },
+    {
+      "month": "2022-05",
+      "cutoff_utc": "2022-05-01T12:00:00+00:00",
+      "features_thresholds_alert_starts_and_priorities_unchanged": true
+    },
+    {
+      "month": "2022-05",
+      "cutoff_utc": "2022-05-01T03:03:00+00:00",
+      "features_thresholds_alert_starts_and_priorities_unchanged": true
+    },
+    {
+      "month": "2022-05",
+      "future_flux_perturbation_factor": 1000,
+      "cutoff_minute": 720,
+      "earlier_decisions_unchanged": true
+    },
+    {
+      "month": "2022-06",
+      "cutoff_utc": "2022-06-01T12:00:00+00:00",
+      "features_thresholds_alert_starts_and_priorities_unchanged": true
+    },
+    {
+      "month": "2022-06",
+      "future_flux_perturbation_factor": 1000,
+      "cutoff_minute": 720,
+      "earlier_decisions_unchanged": true
+    },
+    {
+      "month": "2022-07",
+      "cutoff_utc": "2022-07-01T12:00:00+00:00",
+      "features_thresholds_alert_starts_and_priorities_unchanged": true
+    },
+    {
+      "month": "2022-07",
+      "cutoff_utc": "2022-07-13T09:28:00+00:00",
+      "features_thresholds_alert_starts_and_priorities_unchanged": true
+    },
+    {
+      "month": "2022-07",
+      "future_flux_perturbation_factor": 1000,
+      "cutoff_minute": 720,
+      "earlier_decisions_unchanged": true
+    }
+  ],
+  "small_and_long_gap_checks": [
+    {
+      "case": "one-minute",
+      "availability_and_masking_passed": true
+    },
+    {
+      "case": "two-minute",
+      "availability_and_masking_passed": true
+    },
+    {
+      "case": "three-minute",
+      "availability_and_masking_passed": true
+    }
+  ],
+  "matching_boundaries_checked": true,
+  "original_April_reproduction_status": "not_reproduced",
+  "packaged_compact_input_rerun_matches_all_main_and_sensitivity_metrics_exactly": true,
+  "deliverable_integrity_checks": {
+    "PNG_files_verified": 97,
+    "daily_figures": 92,
+    "CSV_files_parsed": 105,
+    "NOAA_report_SHA256_checks_passed": 124,
+    "report_pages": 8,
+    "report_visual_QA": "all eight pages inspected",
+    "status": "passed"
+  }
+}

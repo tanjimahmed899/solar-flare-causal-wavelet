@@ -1,0 +1,12 @@
+{
+  "implementation": "The exact manuscript-based code from the completed analysis",
+  "three_source_scripts_copied_without_modification": true,
+  "notebook_analysis_cell": "Exact source with only the command-line auto-launch removed",
+  "code_sha256": {
+    "run_manuscript_pipeline.py": "0ce276b23bbad47710de800bc9ef3bf4b8a73cb6dc0e829de9c17c2f90f1d358",
+    "validate_manuscript_pipeline.py": "ed20bd4daeac5a0e3e80005dbccbb5b30584257e3ff754bab07cd2e1cff0cf5e",
+    "build_manuscript_deliverables.py": "5d3722e41f9d45f020375c9dc4f4fb1a5a157a52c7c3cdb168afcec06030bfc5"
+  },
+  "original_April_replication_status": "not_reproduced",
+  "SMA_baseline": "not_implemented_missing_original_settings"
+}

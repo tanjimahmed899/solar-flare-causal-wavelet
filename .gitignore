@@ -1,0 +1,16 @@
+# Generated outputs, environments and caches
+my_results/
+rerun/
+outputs/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.DS_Store
+# Large raw archive(s): download separately
+GOES_2022_FULL.zip
+GOES_2022_FULL.csv
+GOES_2023_FULL.zip
+GOES_2023_FULL.csv

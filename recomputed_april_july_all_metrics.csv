@@ -1,0 +1,9 @@
+month,stream,feature_series_identical,decisions_identical,alerts_issued,TP,FP,FN,F1,alert_ids_exact_match,matches_exact_match
+2022-04,prediction,True,True,247,86,161,138,0.3651804670912951,True,True
+2022-04,detection,True,True,116,69,47,155,0.40588235294117647,True,True
+2022-05,prediction,True,True,269,101,168,156,0.3840304182509506,True,True
+2022-05,detection,True,True,119,93,26,164,0.4946808510638298,True,True
+2022-06,prediction,True,True,255,46,209,61,0.2541436464088398,True,True
+2022-06,detection,True,True,116,43,73,64,0.38565022421524664,True,True
+2022-07,prediction,True,True,278,72,206,94,0.32432432432432434,True,True
+2022-07,detection,True,True,119,67,52,99,0.47017543859649125,True,True

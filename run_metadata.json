@@ -1,0 +1,14 @@
+{
+  "GOES_source_file": "GOES_2022_FULL.zip",
+  "GOES_source_sha256": "67b63eae17245227ccc51b77612c496384b76fda4954eede9c89abb1bf62242e",
+  "NOAA_catalog_file": "NOAA_XRA_context_2022_03_31_to_08_01.csv",
+  "NOAA_catalog_sha256": "e4add5b6f0c7ba784008174a30cbec0276f57a2ead17ab1c6ec6573d4cbd3062",
+  "raw_selected_GOES_rows": 702720,
+  "deduplicated_GOES_minutes": 175680,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "PyWavelets": "1.8.0",
+  "baseline_status": "Not reproduced: SMA window, adaptive rule and April search grid were not supplied",
+  "replication_status": "Manuscript reconstruction with documented choices; original April results not reproduced"
+}
